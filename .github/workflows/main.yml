@@ -32,4 +32,4 @@ jobs:
       - name: Deploy to GitHub Pages
         run: npx gh-pages -d dist --repo https://github.com/calebtgraves/calebtgraves.git
         env:
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
