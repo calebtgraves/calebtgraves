@@ -1,0 +1,132 @@
+{
+  "Education": [
+    {
+      "degree": "Bachelor of Science in Web Design and Development",
+      "school": "Brigham Young University - Idaho",
+      "graduation": "December 2024",
+      "location": "Rexburg, Idaho"
+    },
+    {
+      "degree": "Associate of Science",
+      "school": "Dixie State University",
+      "graduation": "May 2020",
+      "location": "St. George, Utah"
+    }
+  ],
+  "Skills": [
+    {
+      "category": "Frontend Development",
+      "items": ["React", "Svelte", "HTML, CSS, Javascript", "SASS"]
+    },
+    {
+      "category": "Backend Development",
+      "items": ["Node.js", "Express", "SQL", "REST"]
+    },
+    {
+      "category": "Full Stack Development",
+      "items": ["SSR", "Next.js", "SvelteKit", "GraphQL"]
+    },
+    {
+      "category": "Graphic and UX Design",
+      "items": ["Figma", "Illustrator", "Photoshop", "Indesign"]
+    },
+    {
+      "category": "Other Languages",
+      "items": ["Typescript", "SQL", "Python"]
+    },
+    {
+      "category": "Other",
+      "items": [
+        "Git/Github",
+        "Jira",
+        "Agile Development",
+        "Continuous Integration/Deployment"
+      ]
+    }
+  ],
+  "Professional Experience": [
+    {
+      "title": "Web Development Intern",
+      "company": "FamilySearch",
+      "startDate": "April 2024",
+      "endDate": null,
+      "bullets": [
+        "Built a feature in React that helps prevents 95% of potential data loss from network instability, sessions timing out, etc.",
+        "Worked on a team developing an internal application to increase understanding across the organization of what was going on and what each team was working on.",
+        "Successfully led the effort to set up unit tests for an Apollo GraphQL server, leveraging Jest to ensure reliability and performance.",
+        "Contributed over 70 commits across multiple repositories in the organization.",
+        "Refactored the application's Jira integration, creating a more robust and user-friendly interface for project creation and management.",
+        "Collaborated with a team of developers to create a new feature that allows users to view and manage their data in a more intuitive way.",
+        "Actively participated in code reviews, improving coding skills, learning best practices, and sharing knowledge with peers to enhance overall team performance.",
+        "Worked independently and collaboratively in a team environment, demonstrating effective problem-solving and communication skills."
+      ]
+    },
+    {
+        "title": "Graphic Designer",
+        "company": "Deviant Ink",
+        "startDate": "August 2023",
+        "endDate": "March 2024",
+        "bullets":[
+            "Analyzed, designed, and prepared up to 10 wrap orders for snowmobiles for customers per day, based on their desires and feedback."
+        ]
+    },
+    {
+        "tilte": "Computer Programming Instructor",
+        "company": "iLearning",
+        "startDate": "April 2023",
+        "endDate": "November 2023",
+        "bullets": [
+            "Taught up to 4 classes a week to help 15 individual young students learning computer programming, including being asked to specifically be the instructor by parents, and taking over multiple classes from other instructors."
+        ]
+    },
+    {
+        "title": "Production and Design Assistant",
+        "company": "Utah State University - Aggie Print",
+        "startDate": "September 2022",
+        "endDate": "April 2023",
+        "bullets":[
+            "Helped prepare and create graphic files for production, as well as assist in the screen printing process for apparel."
+        ]
+    },
+    {
+        "title": "Computer Lab Assistant and Programming Tutor",
+        "company": "Dixie State University",
+        "startDate": "January 2020",
+        "endDate": "May 2020",
+        "bullets": [
+            "While a senior in high school, tutored college students to be best able to find solutions to their computer science assignments.",
+            "Taught programming principles and helped them to better understand the things they were learning in their classes."
+        ]
+    }
+  ],
+  "Languages": [
+    {
+      "language": "English",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "proficiency": "Intermediate"
+    }
+  ],
+  "Projects": [
+    {
+        "title": "Hebrew Lexicon App",
+        "role": "Developer",
+        "description": "In 2 weeks, built an app using React with Javascript, HTML, and CSS that displays and allows searching through words from Strong's Hebrew Lexicon.",
+        "link": "https://github.com/calebtgraves/hebrew-app"
+    },
+    {
+        "title": "Hero Guy: Secret Mission Game",
+        "role": "Developer",
+        "description": "Using HTML, CSS, and Javascript, and over about 8 weeks, developed this jackbox-style game similar to mafia.",
+        "link":"https://github.com/calebtgraves/Hero-Guy--Secret-Mission"
+    },
+    {
+        "title": "Flim Flam Epigram",
+        "role": "Co-Developer",
+        "description": "Developed the frontend and worked with small team of 3 people to develop a party game similar to the game \"Quiplash\" over the course of about 10 weeks",
+        "link":"https://github.com/calebtgraves/FlimFlamEpigram"
+    }
+  ]
+}
