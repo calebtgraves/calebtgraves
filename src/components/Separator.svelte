@@ -5,6 +5,10 @@
 <div class={`separator ${size}`}></div>
 
 <style>
+  .separator {
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
   .xs {
     height: 0.25rem;
     width: 0.25rem;

@@ -1,11 +1,20 @@
 <script>
   import Container from "./components/Container.svelte";
+  import EducationSection from "./components/EducationSection.svelte";
+  import LanguagesSection from "./components/LanguagesSection.svelte";
+  import ProfessionalExperienceSection from "./components/ProfessionalExperienceSection.svelte";
+  import ProjectsSection from "./components/ProjectsSection.svelte";
   import Separator from "./components/Separator.svelte";
+  import SkillsSection from "./components/SkillsSection.svelte";
+  import resumeInfo from "./resumeInfo.json";
+
+  const { education, skills, professionalExperience, languages, projects } =
+    resumeInfo;
 </script>
 
 <main>
   <header>
-    <Container direction="column">
+    <Container direction="column" size="xl">
       <Container size="full" justify="space-between">
         <div>
           <Container align="end">
@@ -35,6 +44,15 @@
       </Container>
     </Container>
   </header>
+  <div id="main-content">
+    <Container direction="column">
+      <EducationSection {education} />
+      <SkillsSection {skills} />
+      <ProfessionalExperienceSection {professionalExperience} />
+      <LanguagesSection {languages} />
+      <ProjectsSection {projects} />
+    </Container>
+  </div>
 </main>
 
 <style>
@@ -67,5 +85,9 @@
 
   .contact-image:hover {
     opacity: 0.8;
+  }
+
+  #main-content {
+    padding: 10px 20px;
   }
 </style>

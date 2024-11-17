@@ -30,8 +30,12 @@
     max-width: 100%;
   }
 
-  .lg {
+  .xl {
     max-width: 1080px;
+  }
+
+  .lg {
+    max-width: 950px;
   }
 
   .md {

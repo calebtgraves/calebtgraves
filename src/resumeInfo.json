@@ -1,5 +1,5 @@
 {
-  "Education": [
+  "education": [
     {
       "degree": "Bachelor of Science in Web Design and Development",
       "school": "Brigham Young University - Idaho",
@@ -13,7 +13,7 @@
       "location": "St. George, Utah"
     }
   ],
-  "Skills": [
+  "skills": [
     {
       "category": "Frontend Development",
       "items": ["React", "Svelte", "HTML, CSS, Javascript", "SASS"]
@@ -35,16 +35,25 @@
       "items": ["Typescript", "SQL", "Python"]
     },
     {
-      "category": "Other",
+      "category": "Tools and Methodologies",
       "items": [
         "Git/Github",
         "Jira",
         "Agile Development",
-        "Continuous Integration/Deployment"
+        "Continuous Integration"
+      ]
+    },
+    {
+      "category": "Soft Skills",
+      "items": [
+        "Problem Solving",
+        "Communication",
+        "Teamwork",
+        "Independant Work"
       ]
     }
   ],
-  "Professional Experience": [
+  "professionalExperience": [
     {
       "title": "Web Development Intern",
       "company": "FamilySearch",
@@ -99,7 +108,7 @@
         ]
     }
   ],
-  "Languages": [
+  "languages": [
     {
       "language": "English",
       "proficiency": "Native"
@@ -109,7 +118,7 @@
       "proficiency": "Intermediate"
     }
   ],
-  "Projects": [
+  "projects": [
     {
         "title": "Hebrew Lexicon App",
         "role": "Developer",
