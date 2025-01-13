@@ -3,13 +3,11 @@
     {
       "degree": "Bachelor of Science in Web Design and Development",
       "school": "Brigham Young University - Idaho",
-      "graduation": "December 2024",
       "location": "Rexburg, Idaho"
     },
     {
       "degree": "Associate of Science",
       "school": "Dixie State University",
-      "graduation": "May 2020",
       "location": "St. George, Utah"
     }
   ],
@@ -27,14 +25,6 @@
       "items": ["SSR", "Next.js", "SvelteKit", "GraphQL"]
     },
     {
-      "category": "Graphic and UX Design",
-      "items": ["Figma", "Illustrator", "Photoshop", "Indesign"]
-    },
-    {
-      "category": "Other Languages",
-      "items": ["Typescript", "SQL", "Python"]
-    },
-    {
       "category": "Tools and Methodologies",
       "items": [
         "Git/Github",
@@ -42,6 +32,14 @@
         "Agile Development",
         "Continuous Integration"
       ]
+    },
+    {
+      "category": "Graphic and UX Design",
+      "items": ["Figma", "Illustrator", "Photoshop", "Indesign"]
+    },
+    {
+      "category": "Other Languages",
+      "items": ["Typescript", "SQL", "Python"]
     },
     {
       "category": "Soft Skills",

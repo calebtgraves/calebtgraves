@@ -46,9 +46,9 @@
   </header>
   <div id="main-content">
     <Container direction="column">
-      <EducationSection {education} />
       <SkillsSection {skills} />
       <ProfessionalExperienceSection {professionalExperience} />
+      <EducationSection {education} />
       <LanguagesSection {languages} />
       <ProjectsSection {projects} />
     </Container>
