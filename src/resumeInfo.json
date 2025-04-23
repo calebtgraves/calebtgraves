@@ -56,10 +56,10 @@
       "title": "Software Development Intern",
       "company": "FamilySearch",
       "startDate": "April 2024",
-      "endDate": null,
+      "endDate": "April 2025",
       "bullets": [
         "Built a feature in React that helps prevents 95% of potential data loss from network instability, sessions timing out, etc.",
-        "Worked on a team developing an internal application to increase understanding across the organization of what was going on and what each team was working on.",
+        "•Worked on a team developing an internal application to increase understanding across the organization of what eachteam was working on.",
         "Successfully led the effort to set up unit tests for an Apollo GraphQL server, leveraging Jest to ensure reliability and performance.",
         "Contributed over 70 commits across multiple repositories in the organization.",
         "Refactored the application's Jira integration, creating a more robust and user-friendly interface for project creation and management.",
