@@ -2,6 +2,7 @@
   import Container from "./Container.svelte";
   import Divider from "./Divider.svelte";
   import Separator from "./Separator.svelte";
+  import ThemeStyles from "./ThemeStyles.svelte";
 
   export let projects;
 </script>
@@ -24,13 +25,12 @@
   {/each}
 </Container>
 
+<ThemeStyles />
+
 <style>
   .role {
     font-style: italic;
     font-weight: 400;
-  }
-  a {
-    color: #000;
   }
   ul {
     padding-left: 2rem;

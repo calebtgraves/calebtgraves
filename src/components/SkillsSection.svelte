@@ -1,4 +1,6 @@
 <script>
+  import { onMount } from "svelte";
+  import { theme } from "../stores";
   import Container from "./Container.svelte";
   import Divider from "./Divider.svelte";
   import Separator from "./Separator.svelte";
@@ -27,6 +29,45 @@
   <Separator />
 </Container>
 
+{#if $theme === "dark"}
+  <style>
+    .scroll-container::-webkit-scrollbar {
+      background: #1e1e1e;
+    }
+    .scroll-container::-webkit-scrollbar-track {
+      background: #1e1e1e;
+    }
+    .scroll-container::-webkit-scrollbar-thumb {
+      background: #555555;
+    }
+    .scroll-container::-webkit-scrollbar-thumb:hover {
+      background: #777777;
+    }
+    .scroll-container::-webkit-scrollbar-corner {
+      background: #1e1e1e;
+    }
+  </style>
+{:else if $theme === "light"}
+  <style>
+    .scroll-container::-webkit-scrollbar {
+      background: #f0f0f0;
+      height: 8px;
+    }
+    .scroll-container::-webkit-scrollbar-track {
+      background: #f0f0f0;
+    }
+    .scroll-container::-webkit-scrollbar-thumb {
+      background: #cccccc;
+    }
+    .scroll-container::-webkit-scrollbar-thumb:hover {
+      background: #aaaaaa;
+    }
+    .scroll-container::-webkit-scrollbar-corner {
+      background: #f0f0f0;
+    }
+  </style>
+{/if}
+
 <style>
   ul {
     padding-left: 2rem;
@@ -39,5 +80,8 @@
   }
   .skill-container {
     flex-shrink: 0;
+  }
+  .scroll-container::-webkit-scrollbar {
+    height: 8px;
   }
 </style>

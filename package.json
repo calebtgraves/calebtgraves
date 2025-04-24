@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@sveltejs/adapter-static": "^3.0.6",
-    "@sveltejs/kit": "^2.8.0"
+    "@sveltejs/kit": "^2.8.0",
+    "material-icons": "^1.13.14"
   }
 }

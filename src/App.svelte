@@ -6,7 +6,10 @@
   import ProjectsSection from "./components/ProjectsSection.svelte";
   import Separator from "./components/Separator.svelte";
   import SkillsSection from "./components/SkillsSection.svelte";
+  import ThemeStyles from "./components/ThemeStyles.svelte";
+  import ThemeToggleButton from "./components/ThemeToggleButton.svelte";
   import resumeInfo from "./resumeInfo.json";
+  import { theme } from "./stores";
 
   const { education, skills, professionalExperience, languages, projects } =
     resumeInfo;
@@ -28,7 +31,13 @@
         </div>
         <div>
           <a href="https://www.github.com/calebtgraves" target="_blank">
-            <img class="contact-image" src="images/github.svg" alt="GitHub" />
+            <img
+              class="contact-image"
+              src={$theme === "light"
+                ? "images/github.svg"
+                : "images/github_white.png"}
+              alt="GitHub"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/caleb-graves-02b2011a6/"
@@ -43,6 +52,7 @@
         </div>
       </Container>
     </Container>
+    <ThemeToggleButton />
   </header>
   <div id="main-content">
     <Container direction="column">
@@ -55,9 +65,10 @@
   </div>
 </main>
 
+<ThemeStyles />
+
 <style>
   header {
-    background-color: #bfd8e3;
     padding: 20px 10px;
     width: 100%;
   }
