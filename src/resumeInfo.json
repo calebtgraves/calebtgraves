@@ -53,6 +53,17 @@
   ],
   "professionalExperience": [
     {
+      "title": "Graphic Designer, Printing Associate, and Assistant Web Developer",
+      "company": "Square One Printing",
+      "startDate": "June 2025",
+      "endDate": "Present",
+      "bullets": [
+        "Designed and prepped for print hundreds of books, flyers, posters, boards, business cards, and more.",
+        "Assisted with post-design efforts of printing, cutting, and preparing for various orders, working with different substrates.",
+        "Assisted in the development of a new web page that is currently being built with React."
+      ]
+    },
+    {
       "title": "Software Development Intern",
       "company": "FamilySearch",
       "startDate": "April 2024",
@@ -60,7 +71,6 @@
       "bullets": [
         "Built a feature in React that helps prevents 95% of potential data loss from network instability, sessions timing out, etc.",
         "Worked on a team developing an internal application to increase understanding across the organization of what eachteam was working on.",
-        "Successfully led the effort to set up unit tests for an Apollo GraphQL server, leveraging Jest to ensure reliability and performance.",
         "Contributed over 70 commits across multiple repositories in the organization.",
         "Refactored the application's Jira integration, creating a more robust and user-friendly interface for project creation and management.",
         "Collaborated with a team of developers to create a new feature that allows users to view and manage their data in a more intuitive way.",
