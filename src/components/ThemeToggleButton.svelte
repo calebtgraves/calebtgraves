@@ -16,6 +16,8 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
+    height: 1rem;
+    width: 1rem;
     z-index: 1000;
     cursor: pointer;
     background: none;

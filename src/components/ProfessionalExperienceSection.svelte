@@ -12,11 +12,11 @@
   <Separator size="sm" />
   {#each professionalExperience as { company, title, startDate, endDate, bullets } (company)}
     <Container justify="space-between" align="start">
-      <div>
+      <div class="experience-header">
         <h3>{title}</h3>
         <h4 class="company-name">{company}</h4>
       </div>
-      <h4>{endDate ? `${startDate}-${endDate}` : `${startDate}-present`}</h4>
+      <h4 class="date">{endDate ? `${startDate}-${endDate}` : `${startDate}-present`}</h4>
     </Container>
     <ul>
       {#each bullets as bullet}
@@ -35,5 +35,19 @@
   .company-name {
     font-style: italic;
     font-weight: 400;
+  }
+
+  @media (max-width: 640px) {
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    .experience-header {
+      width: 100%;
+    }
+
+    .date {
+      width: 100%;
+    }
   }
 </style>

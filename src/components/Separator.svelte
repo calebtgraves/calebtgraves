@@ -1,8 +1,10 @@
 <script>
   export let size = "md";
+  export let hideOnMobile = false;
+  export let hideOnSmallest = false;
 </script>
 
-<div class={`separator ${size}`}></div>
+<div class={`separator ${size} ${hideOnMobile ? 'hide-on-mobile' : ''} ${hideOnSmallest ? 'hide-on-smallest' : ''}`}></div>
 
 <style>
   .separator {
@@ -28,5 +30,15 @@
   .xl {
     height: 4rem;
     width: 4rem;
+  }
+
+  @media (max-width: 640px) {
+    .hide-on-mobile {
+      display: none;
+    }
+
+    .hide-on-smallest {
+      display: none;
+    }
   }
 </style>

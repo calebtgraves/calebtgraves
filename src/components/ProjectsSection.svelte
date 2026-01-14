@@ -35,4 +35,10 @@
   ul {
     padding-left: 2rem;
   }
+
+  @media (max-width: 640px) {
+    ul {
+      padding-left: 1.5rem;
+    }
+  }
 </style>

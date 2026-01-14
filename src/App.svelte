@@ -21,15 +21,19 @@
       <Container size="full" justify="space-between">
         <div>
           <Container align="end">
+            <Separator />
             <h1 class="name">Caleb Graves</h1>
             <Separator />
             <h2 class="title">Software Developer</h2>
           </Container>
-          <Container justify="start">
+          <Container justify="start" justifyOnMobile="center">
+            <Separator />
             <h3 class="email">calebtgraves@gmail.com</h3>
+            <Separator />
           </Container>
         </div>
         <div>
+          <Separator size="lg" hideOnMobile={true} />
           <a href="https://www.github.com/calebtgraves" target="_blank">
             <img
               class="contact-image"
@@ -73,6 +77,12 @@
     width: 100%;
   }
 
+  @media (max-width: 640px) {
+    header {
+      padding: 15px 10px;
+    }
+  }
+
   h1.name {
     font-size: 3rem;
   }
@@ -89,6 +99,21 @@
     font-weight: 400;
   }
 
+  @media (max-width: 768px) {
+    h1.name {
+      font-size: 2rem;
+    }
+
+    h2.title {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
+
+    h3.email {
+      font-size: 1rem;
+    }
+  }
+
   .contact-image {
     height: 2rem;
     margin-left: 1rem;
@@ -98,7 +123,43 @@
     opacity: 0.8;
   }
 
+  @media (max-width: 640px) {
+    .contact-image {
+      height: 1.5rem;
+      margin-left: 0.5rem;
+    }
+
+    .contact-image:first-child {
+      margin-left: 0;
+    }
+  }
+
   #main-content {
     padding: 10px 20px;
+  }
+
+  @media (max-width: 640px) {
+    #main-content {
+      padding: 10px;
+    }
+  }
+
+  header :global(.full.row) {
+    gap: 1rem;
+  }
+
+  @media (max-width: 640px) {
+    header :global(.full.row) {
+      flex-direction: column;
+      align-items: flex-start !important;
+    }
+
+    header :global(.full.row > div:last-child) {
+      align-self: flex-end;
+    }
+
+    header > :global(*) {
+      width: 100%;
+    }
   }
 </style>
