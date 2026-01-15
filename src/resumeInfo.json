@@ -53,14 +53,14 @@
   ],
   "professionalExperience": [
     {
-      "title": "Graphic Designer, Printing Associate, and Assistant Web Developer",
+      "title": "Graphic Designer and Web Developer",
       "company": "Square One Printing",
       "startDate": "June 2025",
       "endDate": "Present",
       "bullets": [
         "Designed and prepped for print hundreds of books, flyers, posters, boards, business cards, and more.",
         "Assisted with post-design efforts of printing, cutting, and preparing for various orders, working with different substrates.",
-        "Assisted in the development of a new web page that is currently being built with React."
+        "Worked on the development of a new company website and functional web application that is currently being built with React and Typescript."
       ]
     },
     {
