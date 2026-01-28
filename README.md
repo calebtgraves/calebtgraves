@@ -4,3 +4,15 @@ I'm a Front-End Web Developer living in Logan, Utah. I have a Bachelor's Degree 
 
 Here's a link to my resume site, which I built in Svelte!
 [htts://www.calebtgraves.com](https://www.calebtgraves.com)
+
+## What I'm working on:
+### Plug-ins for Adobe InDesign
+- I'm working on a couple of plug-ins for Adobe InDesign.
+  - One allows for the automation of parent pages
+  - The Other allows for better control over importing multi-page documents
+- As these will be paid plug-ins on the Adobe Marketplace, the repos for both extensions are private.
+
+### RPG Game based on Dungeons and Dragons
+- It's still in very early development, but the idea is that you can explore a world, fight monsters, get loot, and tell your own story, all without the need for a Game Master.
+- The rules for combat are a simplified adaptation from D&d
+
