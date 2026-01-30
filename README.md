@@ -1,6 +1,6 @@
 # Hey! I'm Caleb Graves!
 
-I'm a Front-End Web Developer living in Logan, Utah. I have a Bachelor's Degree in Web Design and Development from BYU-Idaho, a year of experience as a React Developer, and I'm currently looking for a full-time position in Software and/or Web Development
+I'm a Front-End Web Developer living in Logan, Utah. I have a Bachelor's Degree in Web Design and Development from BYU-Idaho, a year and a half of experience as a Software Developer, and I'm currently looking for a full-time position in Software and/or Web Development
 
 Here's a link to my resume site, which I built in Svelte!
 [htts://www.calebtgraves.com](https://www.calebtgraves.com)
@@ -15,5 +15,6 @@ Here's a link to my resume site, which I built in Svelte!
 ### RPG Game based on Dungeons and Dragons
 - It's still in very early development, but the idea is that you can explore a world, fight monsters, get loot, and tell your own story, all without the need for a Game Master.
 - The rules for combat are a simplified adaptation from D&d
+
 
 
