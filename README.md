@@ -5,7 +5,7 @@ I'm a Front-End Web Developer living in Logan, Utah. I have a Bachelor's Degree 
 Here's a link to my resume site, which I built in Svelte!
 [htts://www.calebtgraves.com](https://www.calebtgraves.com)
 
-## What I'm working on - Updated January 2026:
+## What I'm working on - Updated February 2026:
 ### Plug-ins for Adobe InDesign
 - I'm working on a couple of plug-ins for Adobe InDesign.
   - One allows for the automation of parent pages
