@@ -17,6 +17,11 @@ Here's a link to my resume site, which I built in Svelte!
 - It's still in very early development, but the idea is that you can explore a world, fight monsters, get loot, and tell your own story, all without the need for a Game Master.
 - The rules for combat are a simplified adaptation from D&d
 
+### Yahtzee Scorecard App
+- I'm working on an app that I plan to put on the google play store that will act as a scorecard for Yahtzee.
+  - The only such apps I can find either cost money for more features (such as more than 2 players), or have a bunch of ads. I'd like to provide one that is completely free without ads, because ads are annoying.
+- I plan to have it available as a web app as well.
+  - It's built with Preact, and I'm wrapping it with Capacitor for mobile.
 
 
 
