@@ -1,4 +1,4 @@
-# Hey! I'm Caleb Graves!
+# Hi! I'm Caleb Graves!
 
 I'm a Front-End Web Developer living in Logan, Utah. I have a Bachelor's Degree in Web Design and Development from BYU-Idaho, a year and a half of experience as a Software Developer, and I'm currently looking for a full-time position in Software and/or Web Development
 
@@ -22,6 +22,7 @@ Here's a link to my resume site, which I built in Svelte!
   - The only such apps I can find either cost money for more features (such as more than 2 players), or have a bunch of ads. I'd like to provide one that is completely free without ads, because ads are annoying.
 - I plan to have it available as a web app as well.
   - It's built with Preact, and I'm wrapping it with Capacitor for mobile.
+
 
 
 
