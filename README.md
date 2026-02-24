@@ -21,7 +21,7 @@ Here's a link to my resume site, which I built in Svelte!
 
 ### Plug-ins for Adobe InDesign
 - I'm working on a couple of plug-ins for Adobe InDesign.
-  - One allows for the automation of parent pages
+  - One allows for the application of parent page alternation/patterns
     - Version 1.0 is available [here](https://exchange.adobe.com/apps/cc/c9349989/parent-page-rules)
   - The Other allows for better control over importing multi-page documents
 - As these will be paid plug-ins on the Adobe Marketplace, the repos for both extensions are private.
