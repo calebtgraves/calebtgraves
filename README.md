@@ -1,11 +1,11 @@
-# Hi! I'm Caleb Graves!
+# Hi, I'm Caleb Graves!
 
 I'm a Front-End Web Developer living in Logan, Utah. I have a Bachelor's Degree in Web Design and Development from BYU-Idaho, a year and a half of experience as a Software Developer, and I'm currently looking for a full-time position in Software and/or Web Development
 
 Here's a link to my resume site, which I built in Svelte!
 [htts://www.calebtgraves.com](https://www.calebtgraves.com)
 
-## What I'm working on - Updated February 2026:
+## What I'm working on - Updated March 2026:
 
 ### Yahtzee Scorecard App
 - I'm working on an app that I plan to put on the google play store that will act as a scorecard for Yahtzee.
